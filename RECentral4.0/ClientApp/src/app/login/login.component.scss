@@ -1,0 +1,80 @@
+.background {
+    /* The image used */
+    position:fixed;
+    bottom:0px;
+    background-image: url("../../assets/Login-Skyline.png");
+    /* Full height */
+    height: 70%; 
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+
+.SignInBox {
+    position: fixed;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 10px 5px 30px 10px #888888;
+    border-radius: 20px;
+    right: 100px;
+    top: 200px;
+    opacity: 95%;
+    align-items: center;
+    
+}
+
+.SignInForm {
+    margin-top: 70px;
+    p {
+        margin-left: 190px;
+        display: inherit;
+        font-size: 30pt;
+        font-family: 'Source Sans Pro';
+        font-weight: bolder;
+    }
+    input{
+        padding-left: 5px;
+        height: 40px;
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 90px;
+        display: inherit;
+        background-color: #33cc3331;
+        border: none;
+        border-radius: 5px;
+    }
+    button {
+        height: 40px;
+        width: 308px;
+        margin-top: 10px;
+        margin-left: 90px;
+        border: none;
+        border-radius: 5px;
+        background-color: #339933ce;
+        p{
+            font-family: 'Source Sans Pro';
+            font-weight: bolder;
+            font-size: 20pt;
+            margin: 0px;
+        
+        }
+    }
+    .ForgotPassword {
+        color: grey;
+        font-size: 12pt;
+        margin-left: 170px;
+    }
+}
+
+.Logo {
+    position: fixed;
+    top: 100px;
+    left: 370px;
+    height: 150px;
+    width: 300px
+}

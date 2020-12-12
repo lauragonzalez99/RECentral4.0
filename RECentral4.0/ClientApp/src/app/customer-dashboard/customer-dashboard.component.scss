@@ -1,0 +1,90 @@
+.TitleContainer {
+    margin-top: 30px;
+    margin-left: 130px;
+    div {
+        margin-top: -2px;
+        height: 4px;
+        width: 285px;
+        background-color: #3A9CCD;
+    }
+}
+.Title{
+    font-size: 30pt;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.listContainer {
+    margin-left: 130px;
+    margin-top: 20px;
+    width:40%;
+    padding-bottom: 380px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 5px 30px 10px #E9E9E9;
+}
+
+.Logo {
+    position: fixed;
+    top: 25px;
+    right: 40px;
+    width: 150px;
+    height: 70px;
+}
+
+.layout{
+    display: inline-block;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 5px 30px 10px #E9E9E9;
+    margin-right: 20px;
+}
+
+.outerLayout{
+    margin-left: 130px;
+    margin-top: 22px;
+}
+
+.leftLayout{
+    width:40%;
+    height: 300px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+.rightLayout{
+    width:30%;
+    height: 723px;
+    float: right;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 5px 30px 10px #E9E9E9;
+    margin-right: 245px;
+}
+
+.quickBoxes{
+    display: inline-block;
+    border-color: #3A9CCD;
+    border-radius: 10px;
+    border: 3px solid;
+    box-shadow: 10px 5px 30px 10px #E9E9E9;
+    margin-right: 22px;
+    width: 19.60%;
+    height: 170px;
+}
+
+.outerquickBox{
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.Header {
+    position: relative;
+    top: -30px;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 21pt;
+}

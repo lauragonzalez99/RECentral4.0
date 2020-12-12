@@ -1,0 +1,181 @@
+.background {
+    /* The image used */
+    position: relative;
+    bottom:0px;
+    background-image: url("../../assets/Red\ Skyline.png") ;
+    /* Full height */
+    height: auto;
+    min-height: 100%; 
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1720px 600px;
+    background-position: 50% 120%;
+    background-attachment:fixed;
+   
+ 
+}
+
+.TitleContainer {
+    margin-top: 30px;
+    margin-left: 50px;
+    div {
+        margin-top: 4px;
+        height: 4px;
+        width: 385px;
+        background-color: #cd3705;
+    }
+}
+
+.Title{
+    font-size: 30pt;
+    font-family: 'Source Sans Pro';
+    margin-bottom: 1px;
+}
+
+.Logo {
+    position: fixed;
+    top: 35px;
+    right: 150px;
+    width: 150px;
+    height: 70px;
+}
+
+.Profile {
+    display: inline-block;
+    background-color: white;
+    opacity: 90%;
+    height: 700px;
+    width: 500px;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 30px 10px #888888;
+    .circle {
+        margin: auto;
+        margin-top: 30px;
+        background-color: lightgrey;
+        height: 300px;
+        width: 300px;
+        border-radius: 100%;
+        border: 1px solid black;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .form-container {
+        width: 400px;
+        margin: auto;
+        label {
+            font-family: 'Roboto';
+            
+        }
+        p {
+            margin-left: 10px;
+            display: inline-block;
+        }
+        input {
+            display: inline-block;
+            border: 1px solid grey;
+            border-radius: 5px;
+            height: 20px;
+            background-color: white;
+            width: 200px;
+            margin: 10px;
+        }
+    
+    }
+    button {
+        margin-top: 20px;
+        margin-left: 150px;
+        color: white;
+        background-color: rgb(248, 162, 2);
+        border: none;
+        border-radius: 10px;
+        font-family: 'Source Sans Pro';
+        font-size: 13pt;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+}
+
+.Header {
+    font-family: 'Source Sans Pro';
+    font-size: 15pt;
+    border-bottom: 3px solid #cd3705;
+    div {
+        display: flex;
+        flex-direction: row;
+        align-content:  space-around;
+        align-items: center;
+    }
+    p {
+        font-size: 12pt;
+        padding: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+}
+
+.propertyForm {
+    margin-left: 20px;
+    width: 400px;
+    margin: auto;
+
+    label {
+        font-family: 'Roboto';
+    }
+    input {
+        margin: 10px;
+    }
+}
+
+.LookingFor {
+    height: 320px;
+    width: 800px;
+    background-color: white;
+    opacity: 90%;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 30px 10px #888888;
+    .tags {
+       width:300px;
+       margin: auto;
+        p {
+            display: inline-block;
+            margin: 10px;
+            border-radius: 5px;
+            color: white;
+            font-family: 'Source Sans Pro';
+            padding: 2px;
+        }
+    }
+}
+
+.Documents {
+    opacity: 90%;
+    height: 320px;
+    width: 800px;
+    background-color: white;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 30px 10px #888888;
+
+}
+
+.MainContainer {
+    max-width: 1550px;
+    min-height: 1000px;
+    margin: auto;
+    // border: 1px solid black;
+}
+
+.SubContainer {
+   
+    display: inline-block;
+    // border: 1px solid black;
+}
