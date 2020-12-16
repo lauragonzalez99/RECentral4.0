@@ -37,5 +37,8 @@ interface Customers {
   Notes: String;
   Name: String;
   Email: String;
+  Phone: String;
+  JoinDate: Date;
+  PropertyType: String;
 
 }

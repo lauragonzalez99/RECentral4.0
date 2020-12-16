@@ -4,25 +4,26 @@
     bottom:0px;
     background-image: url("../../assets/Login-Skyline.png");
     /* Full height */
-    height: 70%; 
+    height: 100%; 
     width: 100%;
     /* Center and scale the image nicely */
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
-   
+    background-size: contain;
+   resize: both;
+   overflow: scroll;
     
 }
 
 .SignInBox {
-    position: fixed;
+    position: absolute;
     width: 500px;
     height: 400px;
     background-color: white;
     box-shadow: 10px 5px 30px 10px #888888;
     border-radius: 20px;
     right: 100px;
-    top: 200px;
+    top: 21%;
     opacity: 95%;
     align-items: center;
     
