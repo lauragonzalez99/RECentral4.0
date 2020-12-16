@@ -17,9 +17,9 @@
                 <tr *ngFor="let Customer of customers; let i = index">
                     <td><img routerLink="/edit-customer" src="../../assets/3 butons.png"></td>
                     <td >{{customers[i].name}}</td>
-                    <td></td>
-                    <td></td>
-                    <td> <div class="propertyType"></div> </td>
+                    <td>{{customers[i].joinDate}}</td>
+                    <td>{{customers[i].phone}}</td>
+                    <td> <div class="propertyType">{{customers[i].propertyType}}</div> </td>
                 </tr>
             </table>
             <div class="btnContainer">
