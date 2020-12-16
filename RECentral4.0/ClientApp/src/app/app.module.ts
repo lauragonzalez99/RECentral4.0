@@ -20,6 +20,7 @@ import { EmailPageComponent } from './email-page/email-page.component';
 import { TaskPageComponent } from './task-page/task-page.component';
 import { CustomerContactFormComponent } from './customer-contact-form/customer-contact-form.component';
 import { UpdateContactFormComponent } from './update-contact-form/update-contact-form.component';
+import { AddEmployeeComponent } from './add-employee/add-employee.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { UpdateContactFormComponent } from './update-contact-form/update-contact
     EmailPageComponent,
     TaskPageComponent,
     CustomerContactFormComponent,
-    UpdateContactFormComponent
+    UpdateContactFormComponent,
+    AddEmployeeComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

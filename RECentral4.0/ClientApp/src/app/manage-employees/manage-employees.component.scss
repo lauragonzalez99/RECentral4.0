@@ -1,0 +1,120 @@
+.background {
+  /* The image used */
+  position: fixed;
+  bottom: 0px;
+  background-image: url("../../assets/Red\ Skyline.png");
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 95% 80%;
+  background-position: 50% 150%;
+}
+
+.TitleContainer {
+  margin-top: 30px;
+  margin-left: 50px;
+
+  div {
+    margin-top: 4px;
+    height: 4px;
+    width: 245px;
+    background-color: #cd3705;
+  }
+}
+
+.Title {
+  font-size: 30pt;
+  font-family: 'Source Sans Pro';
+  margin-bottom: 1px;
+}
+
+.Logo {
+  position: fixed;
+  top: 25px;
+  right: 150px;
+  width: 150px;
+  height: 70px;
+}
+
+.propertyType {
+  background-color: #cd3705;
+  color: white;
+  width: 80px;
+  border-radius: 10px;
+  padding: 2px;
+  text-align: center;
+}
+
+.listContainer {
+  margin: auto;
+  margin-top: 40px;
+  width: 85%;
+  padding-bottom: 90px;
+  background-color: white;
+  border-radius: 10px;
+  opacity: 90%;
+  box-shadow: 10px 5px 30px 10px #888888;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15pt;
+    font-family: 'Source Sans Pro';
+    border-bottom: 3px solid #cd3705;
+  }
+
+  td {
+    padding-top: 25px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 11pt;
+    font-family: 'Source Sans Pro';
+
+    img {
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  td, th {
+    padding-left: 100px;
+  }
+
+  tr {
+    td:nth-child(1) {
+      padding-left: 0px;
+      width: 20px;
+    }
+
+    :nth-child(2) {
+      padding-left: 8px;
+    }
+
+    :nth-child(5) {
+      width: 100px;
+      padding-right: 80px;
+    }
+  }
+
+  .btnContainer {
+    display: flex;
+    float: right;
+  }
+
+  .addButton {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 45px;
+    height: 45px;
+  }
+}
