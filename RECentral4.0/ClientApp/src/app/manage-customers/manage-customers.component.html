@@ -16,10 +16,10 @@
                 </tr>
                 <tr *ngFor="let Customer of customers; let i = index">
                     <td><img routerLink="/edit-customer" src="../../assets/3 butons.png"></td>
-                    <td >{{Customer.Name}}</td>
-                    <td>{{Customer.JoinDate}}</td>
-                    <td>{{Customer.Phone}}</td>
-                    <td> <div class="propertyType">{{Customer.PropertyType}}</div> </td>
+                    <td >{{customers[i].name}}</td>
+                    <td></td>
+                    <td></td>
+                    <td> <div class="propertyType"></div> </td>
                 </tr>
             </table>
             <div class="btnContainer">
