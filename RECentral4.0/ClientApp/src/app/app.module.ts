@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
@@ -20,6 +20,7 @@ import { EmailPageComponent } from './email-page/email-page.component';
 import { TaskPageComponent } from './task-page/task-page.component';
 import { CustomerContactFormComponent } from './customer-contact-form/customer-contact-form.component';
 import { UpdateContactFormComponent } from './update-contact-form/update-contact-form.component';
+import { AddEmployeeComponent } from './add-employee/add-employee.component';
 
 
 @NgModule({
@@ -38,12 +39,14 @@ import { UpdateContactFormComponent } from './update-contact-form/update-contact
     EmailPageComponent,
     TaskPageComponent,
     CustomerContactFormComponent,
-    UpdateContactFormComponent
+    UpdateContactFormComponent,
+    AddEmployeeComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
+    ReactiveFormsModule,
     AppRoutingModule
     /*RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
