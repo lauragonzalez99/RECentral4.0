@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { HttpClient} from '@angular/common/http'
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 
 const BASE_URL = 'http://localhost:65234/'
@@ -16,6 +17,11 @@ export class APIServiceService {
   }
   getEmployeesList() {
     return this.http.get<any[]>(BASE_URL + 'employees');
+  }
+  createEmployee(Employee): Observable<any>
+  {
+    JSON.stringify(Employee);
+    return this.http.post(BASE_URL + 'employees', Employee);
   }
 
 }
