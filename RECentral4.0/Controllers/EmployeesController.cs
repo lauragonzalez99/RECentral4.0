@@ -79,7 +79,7 @@ namespace RECentral4._0.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<Employee>> PostEmployee(Employee employee)
+        public async Task<ActionResult<Employee>> PostEmployee([FromBody] Employee employee)
         {
             _context.Employees.Add(employee);
             await _context.SaveChangesAsync();
