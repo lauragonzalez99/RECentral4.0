@@ -18,6 +18,11 @@ export class APIServiceService {
   getCustomersList() {
     return this.http.get<any[]>(BASE_URL + 'customers');
   }
+
+  getCustomerById(id) {
+    return this.http.get<any[]>(BASE_URL + 'customers/' + id);
+  }
+
   getEmployeesList() {
     return this.http.get<any[]>(BASE_URL + 'employees');
   }
