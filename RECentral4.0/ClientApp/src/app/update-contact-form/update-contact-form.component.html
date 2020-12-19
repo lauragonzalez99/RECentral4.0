@@ -11,13 +11,16 @@
             <div class="Profile">
                 <div class="circle"></div>
                 <div class="form-container">
-                    <label>Name:</label> <p>Donald Duck</p> <br>
-                    <label>Email:</label> <p>Donald@Gmail.com</p><br>
-                    <label>Loaction:</label> <p>Toronto</p><br>
-                    <label>Phone:</label><p>437-246-2415</p><br>
-                    <label>Join Date: </label><p>2020-11-29</p><br>
-                    <label>SMS Alerts Active</label> <input type="checkbox" checked> <br>
-                    <button>Save</button>
+                  <form [formGroup]="customerform" (ngSubmit)="Submit(customer.id)">
+                    <label>Name:</label> <input formControlName="name" type="text"> <br>
+                    <label>Email:</label> <input formControlName="email" type="email"><br>
+                    <label>Property Type:</label> <input formControlName="propertyType" type="text"><br>
+                    <label>Phone:</label><input formControlName="phone" type="text"><br>
+                    <label>Join Date</label><input formControlName="joinDate" type="text" disabled><br>
+                    <label>SMS Alerts Active</label><input type="checkbox"> <br>
+                    <button type="submit">Save Changes</button>
+                  </form>
+
                 </div>
             </div>
         </div>
