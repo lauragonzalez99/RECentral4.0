@@ -14,8 +14,8 @@ namespace RECentral4._0.Models.Database
 
         public DbSet<Employee> Employees { get; set; }
 
-     
-
+        public DbSet<UserFiles> UserFiles { get; set; }
+        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=RECentralDB;Integrated Security=True;");

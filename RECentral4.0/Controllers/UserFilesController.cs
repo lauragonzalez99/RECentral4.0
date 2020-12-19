@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,7 +12,7 @@ namespace RECentral4._0.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class CustomersController : ControllerBase
+    public class UserFilesController : ControllerBase
     {
 
 
@@ -26,38 +26,38 @@ namespace RECentral4._0.Controllers
 
         // GET: api/Customers
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()
+        public async Task<ActionResult<IEnumerable<UserFiles>>> GetUserFiles()
         {
-            return await _context.Customers.ToListAsync();
+            return await _context.UserFiles.ToListAsync();
 
         }
 
         // GET: api/Customers/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Customer>> GetCustomer(int id)
+        public async Task<ActionResult<UserFiles>> GetUserFiles(int id)
         {
-            var customer = await _context.Customers.FindAsync(id);
+            var userFile = await _context.UserFiles.FindAsync(id);
 
-            if (customer == null)
+            if (userFile == null)
             {
                 return NotFound();
             }
 
-            return customer;
+            return userFile;
         }
 
         // PUT: api/Customers/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutCustomer(int id, Customer customer)
+        public async Task<IActionResult> PutUserFile(int id, UserFiles userFile)
         {
-            if (id != customer.Id)
+            if (id != userFile.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(customer).State = EntityState.Modified;
+            _context.Entry(userFile).State = EntityState.Modified;
 
             try
             {
@@ -65,7 +65,7 @@ namespace RECentral4._0.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!CustomerExists(id))
+                if (!UserFileExists(id))
                 {
                     return NotFound();
                 }
@@ -82,34 +82,35 @@ namespace RECentral4._0.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<Customer>> PostCustomer(Customer customer)
+        public async Task<ActionResult<UserFiles>> PostUserFile(UserFiles userFile)
         {
-            _context.Customers.Add(customer);
+            _context.UserFiles.Add(userFile);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetCustomer", new { id = customer.Id }, customer);
+            return CreatedAtAction("GetUserFiles", new { id = userFile.Id }, userFile);
         }
 
         // DELETE: api/Customers/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Customer>> DeleteCustomer(int id)
+        public async Task<ActionResult<UserFiles>> DeteleUserFiles(int id)
         {
-            var customer = await _context.Customers.FindAsync(id);
-            if (customer == null)
+            var userFile = await _context.UserFiles.FindAsync(id);
+            if (userFile == null)
             {
                 return NotFound();
             }
 
-            _context.Customers.Remove(customer);
+            _context.UserFiles.Remove(userFile);
             await _context.SaveChangesAsync();
 
-            return customer;
+            return userFile;
         }
 
-        private bool CustomerExists(int id)
+        private bool UserFileExists(int id)
         {
-            return _context.Customers.Any(e => e.Id == id);
+            return _context.UserFiles.Any(e => e.Id == id);
         }
     }
 }
+
 

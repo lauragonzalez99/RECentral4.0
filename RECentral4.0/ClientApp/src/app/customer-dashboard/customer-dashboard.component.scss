@@ -4,7 +4,7 @@
     div {
         margin-top: -2px;
         height: 4px;
-        width: 285px;
+        width: 525px;
         background-color: #3A9CCD;
     }
 }
@@ -13,6 +13,21 @@
     font-family: 'Source Sans Pro';
     font-weight: bold;
     margin-bottom: 1px;
+}
+
+.subTitle {
+  font-size: 22pt;
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+  margin-bottom: 1px;
+  margin-left: 20px;
+}
+
+.bar {
+  margin-top: -2px;
+  height: 4px;
+  background-color: #3A9CCD;
+  margin-left: 18px;
 }
 
 .listContainer {
@@ -47,33 +62,17 @@
     margin-top: 22px;
 }
 
-.leftLayout{
-    width:40%;
-    height: 300px;
-    margin-bottom: 25px;
-    float: left;
-}
 
-.rightLayout{
-    width:30%;
-    height: 723px;
-    float: right;
-    padding: 50px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 10px 5px 30px 10px #E9E9E9;
-    margin-right: 245px;
-}
-
-.quickBoxes{
-    display: inline-block;
-    border-color: #3A9CCD;
-    border-radius: 10px;
-    border: 3px solid;
-    box-shadow: 10px 5px 30px 10px #E9E9E9;
-    margin-right: 22px;
-    width: 19.60%;
-    height: 170px;
+.quickBoxes {
+  display: inline-block;
+  border-color: #3A9CCD;
+  border-radius: 10px;
+  border: 3px solid;
+  box-shadow: 10px 5px 30px 10px #E9E9E9;
+  margin-right: 22px;
+  max-width: 300px;
+  min-width: 300px;
+  height: 170px;
 }
 
 .outerquickBox{
@@ -87,4 +86,32 @@
     font-family: 'Source Sans Pro';
     font-weight: 700;
     font-size: 21pt;
+}
+
+.whiteBoxInside {
+  display: inline-block;
+  position: fixed;
+  background-color: white;
+  border-color: #3A9CCD;
+  border-radius: 10px;
+  border: 3px solid;
+  min-width: 620px;
+  max-width: 620px;
+  max-height: 350px;
+  margin-left: 130px;
+  min-height: 300px;
+}
+
+.whiteBoxOutside {
+  display: inline-block;
+  position: fixed;
+  background-color: white;
+  border-color: #3A9CCD;
+  border-radius: 10px;
+  border: 3px solid;
+  min-width: 620px;
+  max-width: 620px;
+  max-height: 700px;
+  min-height: 627px;
+  margin-top: 20px;
 }
