@@ -25,9 +25,10 @@ export class AddEmployeeComponent implements OnInit {
 
   submit() {
     console.log(this.employeeform.value);
+
     this.ApiService.createEmployee(this.employeeform.value).subscribe(
-      res => {
-        console.log(res);
-      });
+      res => {console.log(res);});
   }
+
+
 }
