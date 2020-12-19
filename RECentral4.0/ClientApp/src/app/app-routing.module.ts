@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
   { path: 'admin', component: AdminDashboardComponent },
   { path: 'employee', component: EmployeeDashboardComponent },
-  { path: 'customer', component: CustomerDashboardComponent },
+  { path: 'customer/:id', component: CustomerDashboardComponent },
   { path: 'manage-customers', component: ManageCustomersComponent },
   { path: 'add-customer', component: CustomerContactFormComponent },
   { path: 'edit-customer/:id', component: UpdateContactFormComponent },

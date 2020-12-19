@@ -35,7 +35,6 @@ export class APIServiceService {
     return this.http.put(BASE_URL + 'customers/' + id, Customer, httpOptions);
   }
 
-
   getEmployeesList() {
     return this.http.get<any[]>(BASE_URL + 'employees');
   }
@@ -44,6 +43,10 @@ export class APIServiceService {
     JSON.stringify(Employee);
     console.log(Employee);
     return this.http.post(BASE_URL + 'employees', Employee, httpOptions);
+  }
+
+  getUserFiles() {
+    return this.http.get<any[]>(BASE_URL + 'userfiles');
   }
 
 }
