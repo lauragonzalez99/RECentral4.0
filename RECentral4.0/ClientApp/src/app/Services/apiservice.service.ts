@@ -33,4 +33,8 @@ export class APIServiceService {
     return this.http.post(BASE_URL + 'employees', Employee, httpOptions);
   }
 
+  getUserFiles() {
+    return this.http.get<any[]>(BASE_URL + 'userfiles');
+  }
+
 }
