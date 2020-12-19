@@ -18,6 +18,24 @@ export class APIServiceService {
   getCustomersList() {
     return this.http.get<any[]>(BASE_URL + 'customers');
   }
+
+  getCustomerById(id) {
+    return this.http.get<any[]>(BASE_URL + 'customers/' + id)
+  }
+
+  createCustomer(Customer): Observable<any> {
+    JSON.stringify(Customer);
+    console.log(Customer);
+    return this.http.post(BASE_URL + 'customers', Customer, httpOptions);
+  }
+
+  updateCustomer(id, Customer): Observable<any> {
+    JSON.stringify(Customer);
+    console.log(Customer);
+    return this.http.put(BASE_URL + 'customers/' + id, Customer, httpOptions);
+  }
+
+
   getEmployeesList() {
     return this.http.get<any[]>(BASE_URL + 'employees');
   }

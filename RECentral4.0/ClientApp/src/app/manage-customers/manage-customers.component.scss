@@ -11,6 +11,7 @@
     background-repeat: no-repeat;
     background-size: 95% 80%;
     background-position: 50% 150%;
+    overflow: scroll;
  
 }
 
@@ -32,11 +33,13 @@
 }
 
 .Logo {
-    position: fixed;
-    top: 25px;
-    right: 150px;
-    width: 150px;
-    height: 70px;
+  display: inline-block;
+  position: relative;
+  top: -70px;
+  right: 70px;
+  width: 150px;
+  height: 70px;
+  float: right;
 }
 
 .propertyType {
@@ -51,6 +54,7 @@
 .listContainer {
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 30px;
     width:85%;
     padding-bottom: 90px;
     background-color: white;

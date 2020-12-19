@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: 'customer', component: CustomerDashboardComponent },
   { path: 'manage-customers', component: ManageCustomersComponent },
   { path: 'add-customer', component: CustomerContactFormComponent },
-  { path: 'edit-customer', component: UpdateContactFormComponent },
+  { path: 'edit-customer/:id', component: UpdateContactFormComponent },
   { path: 'manage-employees', component: ManageEmployeesComponent },
   { path: 'add-employee', component: AddEmployeeComponent },
   { path: 'email', component: EmailPageComponent },
