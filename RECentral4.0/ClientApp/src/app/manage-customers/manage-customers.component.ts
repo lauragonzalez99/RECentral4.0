@@ -10,9 +10,19 @@ import { APIServiceService } from '../Services/apiservice.service'
 })
 export class ManageCustomersComponent implements OnInit {
 
-  public customers: Customers[];
+  customers = [];
 
-  constructor(private ApiService: APIServiceService, private route: ActivatedRoute, private router: Router) { }
+  constructor(private ApiService: APIServiceService, private route: ActivatedRoute, private router: Router) {
+
+    router.events.subscribe(val => {
+      this.ApiService.getCustomersList().subscribe(
+        data => {
+          this.customers = data;
+          console.log(this.customers)
+        }
+      )
+    })
+  }
 
   nextPage(id) {
     this.router.navigate(['edit-customer/' + id]);
@@ -30,13 +40,3 @@ export class ManageCustomersComponent implements OnInit {
 
 }
 
-interface Customers {
-  Id: number;
-  Notes: String;
-  Name: String;
-  Email: String;
-  Phone: String;
-  JoinDate: Date;
-  PropertyType: String;
-
-}
