@@ -4,7 +4,7 @@
     div {
         margin-top: -2px;
         height: 4px;
-        width: 525px;
+        width: 500px;
         background-color: #3A9CCD;
     }
 }
@@ -113,5 +113,38 @@
   max-width: 620px;
   max-height: 700px;
   min-height: 627px;
+  margin-top: 20px;
+
+}
+
+td {
+  padding-bottom: 7px;
+  padding-right: 70px;
+  padding-left: 70px;
+  text-align:center;
+}
+
+th {
+  padding-bottom: 15px;
+  padding-right: 70px;
+  padding-left: 70px;
+  text-align:center;
+}
+
+.boxes {
+  img {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    vertical-align: bottom;
+    width: 250px;
+    margin:0px;
+    padding:0px;
+    height: 80px;
+  }
+}
+
+.pictureMsg {
+  margin-left: 20px;
   margin-top: 20px;
 }

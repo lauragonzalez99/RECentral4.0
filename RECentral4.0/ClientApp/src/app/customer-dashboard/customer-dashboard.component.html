@@ -8,28 +8,49 @@
     </div>
 
     <div class="outerquickBox">
-      <div>
-        <div class="quickBoxes" style="border-color: #26B789;"></div>
-        <div class="quickBoxes" style="border-color: #E48912;"></div>
-        <div class="quickBoxes" style="border-color: #394FBC;"></div>
-        <div class="quickBoxes" style="border-color: #E03F3F;"></div>
+      <div class="boxes">
+        <div class="quickBoxes" style="border-color: #26B789;">
+          <img src="../../assets/images/Component 1 – 1.svg" />
+        </div>
+        <div class="quickBoxes" style="border-color: #E48912;">
+          <img src="../../assets/images/Component 2 – 1.svg" />
+        </div>
+        <div class="quickBoxes" style="border-color: #394FBC;">
+          <img src="../../assets/images/Component 3 – 1.svg" />
+        </div>
+        <div class="quickBoxes" style="border-color: #E03F3F;">
+          <img src="../../assets/images/Component 4 – 1.svg" />
+        </div>
       </div>
     </div>
 
     <div>
       <div>
-        <div class="whiteBoxInside" style="margin-top: 20px">
+        <div class="whiteBoxInside" style="margin-top: 20px;">
           <p class="subTitle">Files</p>
           <div class="bar" style="width:60px"></div>
+          <table style=" margin: auto;">
+            <tr>
+              <th>File Name</th>
+              <th>Date Added</th>
+            </tr>
+            <tr *ngFor="let file of userFiles; let i = index">
+              <td>{{userFiles[i].fileName}}</td>
+              <td>{{userFiles[i].addDate.slice(0,10)}}</td>
+            </tr>
+          </table>
         </div>
         <div class="whiteBoxInside" style="margin-top: 350px">
-          <p class="subTitle">To Do</p>
-          <div class="bar" style="width:70px"></div>
+          <p class="subTitle">Notifications</p>
+          <div class="bar" style="width:175px"></div>
         </div>
       </div>
       <div class="whiteBoxOutside" style="margin-left: 780px">
-        <p class="subTitle" >Recent Messages</p>
+        <p class="subTitle">Recent Messages</p>
         <div class="bar" style="width:220px"></div>
+        <div>
+          <img class="pictureMsg" src="../../assets/images/Component 5 – 1.svg" />
+        </div>
       </div>
     </div>
     <p></p>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="533" height="220" viewBox="0 0 533 220">
+  <g id="Component_5_1" data-name="Component 5 – 1" transform="translate(0 0.5)">
+    <line id="Line_2" data-name="Line 2" x2="533" fill="none" stroke="#d4633d" stroke-width="1" opacity="0.3"/>
+    <g id="Group_58" data-name="Group 58" transform="translate(-985.5 -364.5)">
+      <path id="Path_41" data-name="Path 41" d="M7,0H39a7,7,0,0,1,7,7V39a7,7,0,0,1-7,7H7a7,7,0,0,1-7-7V7A7,7,0,0,1,7,0Z" transform="translate(986 378)" fill="#c8c7c7"/>
+      <text id="TA" transform="translate(996 410)" fill="#342e2e" font-size="25" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">TA</tspan></text>
+      <line id="Line_3" data-name="Line 3" x2="532" transform="translate(985.5 437.5)" fill="none" stroke="#d4633d" stroke-width="1" opacity="0.31"/>
+    </g>
+    <text id="Follow_up_with_proposal" data-name="Follow up with proposal" transform="translate(59.5 28.5)" fill="#342e2e" font-size="15" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">Follow up with proposal</tspan></text>
+    <text id="Lorem_Ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry._Lorem_Ipsum_has_been_the_industry_s_standard_dummy_text_ever_since_the_1500s..." data-name="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s..." transform="translate(59.5 43.5)" fill="#342e2e" font-size="11" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700" opacity="0.58"><tspan x="0" y="0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </tspan><tspan x="0" y="14">Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s...</tspan></text>
+    <g id="Group_57" data-name="Group 57" transform="translate(-985.5 -364.5)">
+      <path id="Path_39" data-name="Path 39" d="M7,0H39a7,7,0,0,1,7,7V39a7,7,0,0,1-7,7H7a7,7,0,0,1-7-7V7A7,7,0,0,1,7,0Z" transform="translate(986 451)" fill="#c8c7c7"/>
+      <text id="BL" transform="translate(995 483)" fill="#342e2e" font-size="25" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">BL</tspan></text>
+      <line id="Line_4" data-name="Line 4" x2="532" transform="translate(985.5 510.5)" fill="none" stroke="#d4633d" stroke-width="1" opacity="0.31"/>
+    </g>
+    <g id="Group_59" data-name="Group 59" transform="translate(-985.5 -291.5)">
+      <path id="Path_40" data-name="Path 40" d="M7,0H39a7,7,0,0,1,7,7V39a7,7,0,0,1-7,7H7a7,7,0,0,1-7-7V7A7,7,0,0,1,7,0Z" transform="translate(986 451)" fill="#c8c7c7"/>
+      <text id="FS" transform="translate(996 483)" fill="#342e2e" font-size="25" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">FS</tspan></text>
+      <line id="Line_4-2" data-name="Line 4" x2="532" transform="translate(985.5 510.5)" fill="none" stroke="#d4633d" stroke-width="1" opacity="0.31"/>
+    </g>
+    <text id="Lorem_Ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry._Lorem_Ipsum_has_been_the_industry_s_standard_dummy_text_ever_since_the_1500s...-2" data-name="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s..." transform="translate(59.5 116.5)" fill="#342e2e" font-size="11" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700" opacity="0.58"><tspan x="0" y="0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </tspan><tspan x="0" y="14">Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s...</tspan></text>
+    <text id="Lorem_Ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry._Lorem_Ipsum_has_been_the_industry_s_standard_dummy_text_ever_since_the_1500s...-3" data-name="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s..." transform="translate(59.5 189.5)" fill="#342e2e" font-size="11" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700" opacity="0.58"><tspan x="0" y="0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </tspan><tspan x="0" y="14">Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s...</tspan></text>
+    <text id="Issues_with_property" data-name="Issues with property" transform="translate(59.5 101.5)" fill="#342e2e" font-size="15" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">Issues with property</tspan></text>
+    <text id="Issues_with_something" data-name="Issues with something" transform="translate(59.5 174.5)" fill="#342e2e" font-size="15" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">Issues with something</tspan></text>
+  </g>
+</svg>
