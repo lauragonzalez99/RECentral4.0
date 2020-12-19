@@ -27,7 +27,7 @@ export class UpdateContactFormComponent implements OnInit {
     console.log(this.customerform.value)
     console.log(id)
     this.ApiService.updateCustomer(id, this.customerform.value).subscribe();
-    //this.router.navigate(['/manage-customers']);
+    this.router.navigate(['/manage-customers']);
   }
   
   ngOnInit(): void {
